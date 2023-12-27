@@ -22,9 +22,9 @@ pipeline {
                 echo 'Hello World'
             }
         }
-          stage('E') {
+          stage('Echo print line') {
             steps {
-                echo 'Hello World'
+                echo 'Pipeline demo completed'
             }
         }
     }
